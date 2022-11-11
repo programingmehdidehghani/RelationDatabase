@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-class School (
+data class School (
     @PrimaryKey(autoGenerate = false)
     val schoolName: String
 )

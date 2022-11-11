@@ -4,7 +4,8 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-class Director (
+data class Director(
     @PrimaryKey(autoGenerate = false)
-   val directorName : String
+    val directorName: String,
+    val schoolName : String
 )
